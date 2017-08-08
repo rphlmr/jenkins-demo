@@ -5,19 +5,13 @@ package com.example;
  */
 public class Greeter {
 
-  /**
-   * This is a constructor.
-   */
+
   public Greeter() {
 
   }
 
-   /**
-   * This is a method.
-   * @param someone the name of a person
-   * @return the sentence
-   */
-  public final String greet(final String someone) {
+
+  public final String greet(String someone) {
     return String.format("Hello, %s!", someone);
   }
 }
